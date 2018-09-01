@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ShootCollisionScript : MonoBehaviour {
     private UIScript uiScript;
-
+    private bool collidedWithEnemy = false;
     private void Start()
     {
         uiScript = GetComponent<UIScript>();
@@ -21,11 +21,21 @@ public class ShootCollisionScript : MonoBehaviour {
                 collision.gameObject.transform.GetChild(0).GetComponent<Animator>().SetBool("death",true);
             Destroy(collision.gameObject, 3f);
             Object.FindObjectOfType<UIScript>().increasePoints(1);
+            Object.FindObjectOfType<PlayerReactionsScript>().playEnemyHit();
+            collidedWithEnemy = true;
             Destroy(gameObject);
         }
         else if (collision.gameObject.tag == "terrain")
         {
             Destroy(gameObject);
+        }
+    }
+
+    private void OnDestroy()
+    {
+        if (!collidedWithEnemy)
+        {
+            Object.FindObjectOfType<PlayerReactionsScript>().increaseEnemyMissCounter();
         }
     }
 }

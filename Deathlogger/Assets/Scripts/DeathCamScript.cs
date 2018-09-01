@@ -19,6 +19,7 @@ public class DeathCamScript : MonoBehaviour {
         rigidBody.constraints = RigidbodyConstraints.None;
         Object.FindObjectOfType<PlayerMovementScript>().enabled = false;
         Object.FindObjectOfType<PlayerMovementScript>().gameObject.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.None;
+        Object.FindObjectOfType<PlayerReactionsScript>().playDeathSound();
         yield return new WaitForSeconds(5);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
