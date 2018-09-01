@@ -9,6 +9,7 @@ public class EnemyMoveTo : MonoBehaviour
     private NavMeshAgent agent;
     private float timeCounter = 5;
     private float[] walkingSpeed = {2.5f, 2.8f, 3f,3.2f, 3.3f };
+    private SpawnerScript spawner;
     // Use this for initialization
     void Start()
     {
@@ -32,5 +33,10 @@ public class EnemyMoveTo : MonoBehaviour
     public void setGoal(Transform newGoal)
     {
         goal = newGoal;
+    }
+
+    public void setSpawner(SpawnerScript sp)
+    {
+        spawner = sp;
     }
 }
