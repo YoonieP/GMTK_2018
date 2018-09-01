@@ -21,10 +21,10 @@ GameObject:
   - component: {fileID: 4732487413247536}
   - component: {fileID: 33136827882739044}
   - component: {fileID: 23021505779779284}
-  - component: {fileID: 136833509471982282}
   - component: {fileID: 195172566280895626}
   - component: {fileID: 114348947313905756}
   - component: {fileID: 82887578254121186}
+  - component: {fileID: 65026343809254986}
   m_Layer: 0
   m_Name: EnemyPrefab
   m_TagString: enemy
@@ -87,6 +87,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1280882474036970}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!65 &65026343809254986
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1280882474036970}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000001, y: 2, z: 1.0000002}
+  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
 --- !u!82 &82887578254121186
 AudioSource:
   m_ObjectHideFlags: 1
@@ -193,19 +205,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12d1b086f1decdd4d82e8d3a82d71a34, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!136 &136833509471982282
-CapsuleCollider:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1280882474036970}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.5000001
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
 --- !u!195 &195172566280895626
 NavMeshAgent:
   m_ObjectHideFlags: 1
