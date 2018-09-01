@@ -17,6 +17,8 @@ public class ShootCollisionScript : MonoBehaviour {
             collision.gameObject.GetComponent<BoxCollider>().enabled = false;
             collision.gameObject.GetComponent<EnemyMoveTo>().setGoal(collision.gameObject.transform);
             collision.gameObject.GetComponent<EnemyMoveTo>().spawnerDecreaseCurrentActiveEnemys();
+            if(collision.gameObject.transform.childCount>0)
+                collision.gameObject.transform.GetChild(0).GetComponent<Animator>().SetBool("death",true);
             Destroy(collision.gameObject, 3f);
             Object.FindObjectOfType<UIScript>().increasePoints(1);
             Destroy(gameObject);

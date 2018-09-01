@@ -306,6 +306,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\ColorScript.cs" />
     <Compile Include="Assets\Scripts\DeathCamScript.cs" />
     <Compile Include="Assets\Scripts\EnemyAnimationDelay.cs" />
     <Compile Include="Assets\Scripts\EnemyMoveTo.cs" />

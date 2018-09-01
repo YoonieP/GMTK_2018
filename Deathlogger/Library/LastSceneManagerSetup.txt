@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/NamScene.unity
+- path: Assets/Scenes/MikeScene.unity
   isLoaded: 1
   isActive: 1
