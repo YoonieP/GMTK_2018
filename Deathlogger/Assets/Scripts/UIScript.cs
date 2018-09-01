@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class UIScript : MonoBehaviour {
     private int points = 0;
-    public Text text;
+    public TextMesh text;
 
     public void increasePoints(int plusPoints)
     {
@@ -15,6 +15,6 @@ public class UIScript : MonoBehaviour {
 
     public void disableText()
     {
-        text.enabled = false;
+        enabled = false;
     }
 }
