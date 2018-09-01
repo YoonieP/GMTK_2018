@@ -11,5 +11,5 @@ public class LoadSceneScript : MonoBehaviour {
     public void QuitGame()
     {
         Application.Quit();
-    }
+    } 
 }

@@ -21,10 +21,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 713, y: 521}
-  m_MaxSize: {x: 18008, y: 12021}
+  m_MinSize: {x: 909, y: 421}
+  m_MaxSize: {x: 18008, y: 10069}
   vertical: 0
-  controlID: 14582
+  controlID: 15153
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -122,8 +122,8 @@ MonoBehaviour:
     y: 0
     width: 409
     height: 947
-  m_MinSize: {x: 230, y: 250}
-  m_MaxSize: {x: 10000, y: 10000}
+  m_MinSize: {x: 232, y: 271}
+  m_MaxSize: {x: 10002, y: 10021}
   m_ActualView: {fileID: 4}
   m_Panes:
   - {fileID: 4}
@@ -166,20 +166,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Aura/Examples/Spot Light
   m_ViewMode: 1
   m_StartGridSize: 75
   m_LastFolders:
-  - Assets
+  - Assets/Aura/Examples/Spot Light
   m_LastFoldersGridSize: 75
   m_LastProjectPath: C:\Users\nam81\Documents\GitHub\GMTK_2018\Deathlogger
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 12300000
-    m_LastClickedID: 12306
-    m_ExpandedIDs: 000000001230000070300000a0310000ee32000000ca9a3b
+    m_SelectedIDs: ae4f0000
+    m_LastClickedID: 20398
+    m_ExpandedIDs: 000000001230000070300000a0310000fa310000ee320000de4f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -232,9 +232,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: ee440000
-    m_LastClickedInstanceID: 17646
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: ca4f0000
+    m_LastClickedInstanceID: 20426
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000c6330000342f00007c9fffff1a09000052570000e0cf0100c00b0000703000001a2a00000e460000fa0a0000b0710000800b00009c0d00008636000000000000782d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -283,10 +283,10 @@ MonoBehaviour:
     y: 0
     width: 1161
     height: 947
-  m_MinSize: {x: 204, y: 521}
-  m_MaxSize: {x: 4004, y: 12021}
+  m_MinSize: {x: 400, y: 421}
+  m_MaxSize: {x: 4004, y: 10069}
   vertical: 1
-  controlID: 14561
+  controlID: 15125
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -305,15 +305,15 @@ MonoBehaviour:
     y: 0
     width: 1161
     height: 373
-  m_MinSize: {x: 204, y: 221}
-  m_MaxSize: {x: 4004, y: 4021}
-  m_ActualView: {fileID: 7}
+  m_MinSize: {x: 400, y: 100}
+  m_MaxSize: {x: 2048, y: 2048}
+  m_ActualView: {fileID: 8}
   m_Panes:
   - {fileID: 7}
   - {fileID: 8}
   - {fileID: 9}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -416,7 +416,7 @@ MonoBehaviour:
     x: 411
     y: 92
     width: 1157
-    height: 308
+    height: 352
   m_PersistentViewDataDictionary: {fileID: 0}
 --- !u!114 &9
 MonoBehaviour:
@@ -597,8 +597,8 @@ MonoBehaviour:
     y: 373
     width: 1161
     height: 453
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 204, y: 221}
+  m_MaxSize: {x: 4004, y: 4021}
   m_ActualView: {fileID: 2}
   m_Panes:
   - {fileID: 2}
@@ -677,7 +677,7 @@ MonoBehaviour:
   m_MinSize: {x: 277, y: 271}
   m_MaxSize: {x: 4002, y: 8021}
   vertical: 1
-  controlID: 14583
+  controlID: 15154
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -729,10 +729,10 @@ MonoBehaviour:
     height: 284
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
-    scrollPos: {x: 0, y: 53}
-    m_SelectedIDs: ee440000
-    m_LastClickedID: 17646
-    m_ExpandedIDs: 24acf9ffeadcfafff0dcfaff08edfaff2a22fcff2444fdffe0f8fdff120ffeff9a10feff6811feffb415ffffdc6cffff208dffffdca9ffffa0b8ffff00000000e63600000c370000504400006c4400008a4400009c440000
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: ca4f0000
+    m_LastClickedID: 0
+    m_ExpandedIDs: 286cf8ff24acf9ffeadcfafff0dcfaff08edfaff2a22fcff2444fdffe0f8fdff120ffeff9a10feff6811feffb415ffffdc6cffff208dffffdca9ffffa0b8ffff00000000e63600000c370000504400006c4400008a4400009c440000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
