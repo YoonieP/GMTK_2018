@@ -72,6 +72,7 @@ ModelImporter:
     9500000: //RootNode
     13700000: character_export_001:Mesh
     13700002: Skin_ZSphere_1
+    13700004: slingshot:Mesh
   externalObjects: {}
   materials:
     importMaterials: 1

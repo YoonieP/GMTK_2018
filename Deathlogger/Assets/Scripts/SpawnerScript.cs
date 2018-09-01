@@ -11,7 +11,8 @@ public class SpawnerScript : MonoBehaviour {
     public GameObject enemy2;
     public float timeTillActiveEnemysIncreases = 30;    //seconds
     private float timeCounter;
-
+    private float spawnCouldownTimer = 6;
+    private float spawnCouldownMinimum = 4;
     void Start()
     {
         enemyArray = new GameObject[startingArraySize];
@@ -19,12 +20,13 @@ public class SpawnerScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         timeCounter += Time.deltaTime;
-        if(timeCounter >= timeTillActiveEnemysIncreases)
+        spawnCouldownTimer += Time.deltaTime;
+        if (timeCounter >= timeTillActiveEnemysIncreases)
         {
             timeCounter = 0;
             currentActiveEnemys++;
         }
-        if (currentActiveEnemys != sameTimeActiveEnemys)
+        if (currentActiveEnemys != sameTimeActiveEnemys && spawnCouldownTimer >= spawnCouldownMinimum)
         {            
             for (int i = 0; i < (sameTimeActiveEnemys-currentActiveEnemys); i++)
             {
@@ -48,5 +50,6 @@ public class SpawnerScript : MonoBehaviour {
     public void decreaseCurrentActiveEnemys()
     {
         currentActiveEnemys--;
+        spawnCouldownTimer = 0;
     }
 }

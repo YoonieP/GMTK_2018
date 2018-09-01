@@ -17,4 +17,9 @@ public class UIScript : MonoBehaviour {
     {
         enabled = false;
     }
+
+    public int getPoints()
+    {
+        return points;
+    }
 }
