@@ -15,6 +15,11 @@ public class ShootCollisionScript : MonoBehaviour {
         {
             Destroy(collision.gameObject);
             Object.FindObjectOfType<UIScript>().increasePoints(1);
+            Destroy(gameObject);
+        }
+        else if (collision.gameObject.tag == "terrain")
+        {
+            Destroy(gameObject);
         }
     }
 }

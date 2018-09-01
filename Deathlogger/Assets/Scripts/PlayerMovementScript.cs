@@ -6,6 +6,8 @@ public class PlayerMovementScript : MonoBehaviour {
     public GameObject bulletPrefab;
     public Transform bulletSpawn;
     public float speed = 3.0f;
+    public float bulletSpeed = 3.5f;
+    private float shootCooldown = 0;
 	// Use this for initialization
 	void Start () {
 		
@@ -18,9 +20,14 @@ public class PlayerMovementScript : MonoBehaviour {
 
         transform.Rotate(0, x, 0);
         transform.Translate(0, 0, z);
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && shootCooldown >= .7f)
         {
+            shootCooldown = 0;
             shootBullet();
+        }
+        else if (shootCooldown < 1.2f)
+        {
+            shootCooldown += Time.deltaTime;
         }
     }
 
@@ -28,7 +35,7 @@ public class PlayerMovementScript : MonoBehaviour {
     {
 
         var bullet = (GameObject)Instantiate(bulletPrefab, bulletSpawn.position,bulletSpawn.rotation);
-        bullet.GetComponent<Rigidbody>().velocity = bullet.transform.forward * 2;
+        bullet.GetComponent<Rigidbody>().velocity = bullet.transform.forward * bulletSpeed;
         Destroy(bullet, 3f);
     }
 }
