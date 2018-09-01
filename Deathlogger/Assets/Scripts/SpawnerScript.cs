@@ -9,13 +9,21 @@ public class SpawnerScript : MonoBehaviour {
     public GameObject[] enemyArray;
     public GameObject enemy1;
     public GameObject enemy2;
-	
+    public float timeTillActiveEnemysIncreases = 30;    //seconds
+    private float timeCounter;
+
     void Start()
     {
         enemyArray = new GameObject[startingArraySize];
     }
 	// Update is called once per frame
 	void Update () {
+        timeCounter += Time.deltaTime;
+        if(timeCounter >= timeTillActiveEnemysIncreases)
+        {
+            timeCounter = 0;
+            currentActiveEnemys++;
+        }
         if (currentActiveEnemys != sameTimeActiveEnemys)
         {            
             for (int i = 0; i < (sameTimeActiveEnemys-currentActiveEnemys); i++)

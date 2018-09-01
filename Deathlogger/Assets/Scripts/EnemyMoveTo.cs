@@ -8,7 +8,7 @@ public class EnemyMoveTo : MonoBehaviour
     private Transform goal;
     private NavMeshAgent agent;
     private float timeCounter = 5;
-    private float[] walkingSpeed = {2.5f, 2.8f, 3f,3.2f, 3.3f };
+    private float[] walkingSpeed = {2.3f, 2.5f, 2.8f,3f, 3.2f };
     private SpawnerScript spawner;
     // Use this for initialization
     void Start()
@@ -38,5 +38,10 @@ public class EnemyMoveTo : MonoBehaviour
     public void setSpawner(SpawnerScript sp)
     {
         spawner = sp;
+    }
+
+    public void spawnerDecreaseCurrentActiveEnemys()
+    {
+        spawner.decreaseCurrentActiveEnemys();
     }
 }
