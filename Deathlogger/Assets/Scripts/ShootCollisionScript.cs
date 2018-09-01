@@ -14,7 +14,7 @@ public class ShootCollisionScript : MonoBehaviour {
         if (collision.gameObject.tag == "enemy")
         {
             collision.gameObject.GetComponent<AudioSource>().Play();
-            collision.gameObject.GetComponent<CapsuleCollider>().enabled = false;
+            collision.gameObject.GetComponent<BoxCollider>().enabled = false;
             collision.gameObject.GetComponent<EnemyMoveTo>().setGoal(collision.gameObject.transform);            
             Destroy(collision.gameObject, 3f);
             Object.FindObjectOfType<UIScript>().increasePoints(1);
