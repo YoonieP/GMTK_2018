@@ -306,9 +306,13 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\DeathCamScript.cs" />
     <Compile Include="Assets\Scripts\EnemyMoveTo.cs" />
     <Compile Include="Assets\Scripts\HelmentMaterialSwap.cs" />
+    <Compile Include="Assets\Scripts\PlayerCollisionScript.cs" />
     <Compile Include="Assets\Scripts\PlayerMovementScript.cs" />
+    <Compile Include="Assets\Scripts\ShootCollisionScript.cs" />
+    <Compile Include="Assets\Scripts\UIScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Styles\Main_Dark.uss" />

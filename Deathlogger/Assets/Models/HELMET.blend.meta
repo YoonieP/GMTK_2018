@@ -1,0 +1,219 @@
+fileFormatVersion: 2
+guid: 526c4be30270e5a478c2f0bf102c4b03
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Cube_001
+    100002: Cube_002
+    100004: Group15557
+    100006: Group15673
+    100008: Group1924
+    100010: Group20215
+    100012: Group21692
+    100014: Group24954
+    100016: Group267
+    100018: Group29306
+    100020: Group30385
+    100022: Group30973
+    100024: Group3156
+    100026: Group35325
+    100028: Group36404
+    100030: Group36697
+    100032: Group42716
+    100034: Group51393
+    100036: Group54154
+    100038: Group57412
+    100040: Group61441
+    100042: Group62673
+    100044: Group6668
+    100046: Group9538
+    100048: //RootNode
+    100050: ZSphere_0
+    400000: Cube_001
+    400002: Cube_002
+    400004: Group15557
+    400006: Group15673
+    400008: Group1924
+    400010: Group20215
+    400012: Group21692
+    400014: Group24954
+    400016: Group267
+    400018: Group29306
+    400020: Group30385
+    400022: Group30973
+    400024: Group3156
+    400026: Group35325
+    400028: Group36404
+    400030: Group36697
+    400032: Group42716
+    400034: Group51393
+    400036: Group54154
+    400038: Group57412
+    400040: Group61441
+    400042: Group62673
+    400044: Group6668
+    400046: Group9538
+    400048: //RootNode
+    400050: ZSphere_0
+    2100000: Material_001__textut
+    2100002: unnamed
+    2300000: Cube_001
+    2300002: Cube_002
+    2300004: Group15557
+    2300006: Group15673
+    2300008: Group1924
+    2300010: Group20215
+    2300012: Group21692
+    2300014: Group24954
+    2300016: Group267
+    2300018: Group29306
+    2300020: Group30385
+    2300022: Group30973
+    2300024: Group3156
+    2300026: Group35325
+    2300028: Group36404
+    2300030: Group36697
+    2300032: Group42716
+    2300034: Group51393
+    2300036: Group54154
+    2300038: Group57412
+    2300040: Group61441
+    2300042: Group62673
+    2300044: Group6668
+    2300046: Group9538
+    2300048: ZSphere_0
+    3300000: Cube_001
+    3300002: Cube_002
+    3300004: Group15557
+    3300006: Group15673
+    3300008: Group1924
+    3300010: Group20215
+    3300012: Group21692
+    3300014: Group24954
+    3300016: Group267
+    3300018: Group29306
+    3300020: Group30385
+    3300022: Group30973
+    3300024: Group3156
+    3300026: Group35325
+    3300028: Group36404
+    3300030: Group36697
+    3300032: Group42716
+    3300034: Group51393
+    3300036: Group54154
+    3300038: Group57412
+    3300040: Group61441
+    3300042: Group62673
+    3300044: Group6668
+    3300046: Group9538
+    3300048: ZSphere_0
+    4300000: Cube_002
+    4300002: Cube_001
+    4300004: Group15557
+    4300006: Group267
+    4300008: Group20215
+    4300010: Group30973
+    4300012: Group35325
+    4300014: Group36697
+    4300016: Group30385
+    4300018: Group61441
+    4300020: Group9538
+    4300022: Group3156
+    4300024: Group15673
+    4300026: Group57412
+    4300028: Group62673
+    4300030: Group36404
+    4300032: Group54154
+    4300034: Group24954
+    4300036: ZSphere_0
+    4300038: Group51393
+    4300040: Group6668
+    4300042: Group1924
+    4300044: Group42716
+    4300046: Group29306
+    4300048: Group21692
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
