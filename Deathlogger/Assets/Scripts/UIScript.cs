@@ -12,4 +12,9 @@ public class UIScript : MonoBehaviour {
         points += plusPoints;
         text.text = ""+points;
     }
+
+    public void disableText()
+    {
+        text.enabled = false;
+    }
 }
