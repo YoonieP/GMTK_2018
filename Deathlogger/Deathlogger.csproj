@@ -313,6 +313,7 @@
     <Compile Include="Assets\Scripts\PlayerCollisionScript.cs" />
     <Compile Include="Assets\Scripts\PlayerMovementScript.cs" />
     <Compile Include="Assets\Scripts\ShootCollisionScript.cs" />
+    <Compile Include="Assets\Scripts\SpawnerScript.cs" />
     <Compile Include="Assets\Scripts\UIScript.cs" />
   </ItemGroup>
   <ItemGroup>
