@@ -7,10 +7,13 @@ public class PlayerMovementScript : MonoBehaviour {
     public Transform bulletSpawn;
     public float speed = 3.0f;
     public float bulletSpeed = 3.5f;
-    private float shootCooldown = 0;
+    private float shootCooldownTimer = 0;
+    public float shootCooldown = .3f;
+    private AudioSource shootSound;
+    private float[] possiblePitchHighs = { 0.9f, 0.95f, 1, 1.05f, 1.1f};
 	// Use this for initialization
 	void Start () {
-		
+        shootSound = GameObject.Find("ShootSound").GetComponent<AudioSource>(); 
 	}
 	
 	// Update is called once per frame
@@ -20,20 +23,21 @@ public class PlayerMovementScript : MonoBehaviour {
 
         transform.Rotate(0, x, 0);
         transform.Translate(0, 0, z);
-        if (Input.GetKeyDown(KeyCode.Space) && shootCooldown >= .7f)
+        if (Input.GetKeyDown(KeyCode.Space) && shootCooldownTimer >= shootCooldown)
         {
-            shootCooldown = 0;
+            shootCooldownTimer = 0;
             shootBullet();
         }
-        else if (shootCooldown < 1.2f)
+        else if (shootCooldownTimer < shootCooldown)
         {
-            shootCooldown += Time.deltaTime;
+            shootCooldownTimer += Time.deltaTime;
         }
     }
 
     void shootBullet()
     {
-
+        shootSound.Play();
+        shootSound.pitch = possiblePitchHighs[Random.Range(0,possiblePitchHighs.Length)];
         var bullet = (GameObject)Instantiate(bulletPrefab, bulletSpawn.position,bulletSpawn.rotation);
         bullet.GetComponent<Rigidbody>().velocity = bullet.transform.forward * bulletSpeed;
         Destroy(bullet, 3f);
