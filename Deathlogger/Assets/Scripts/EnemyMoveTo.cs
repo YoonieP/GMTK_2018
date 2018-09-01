@@ -7,6 +7,8 @@ public class EnemyMoveTo : MonoBehaviour
 {
     private Transform goal;
     private NavMeshAgent agent;
+    private float timeCounter = 5;
+    private float[] walkingSpeed = {2.5f, 2.8f, 3f,3.2f, 3.3f };
     // Use this for initialization
     void Start()
     {
@@ -14,10 +16,17 @@ public class EnemyMoveTo : MonoBehaviour
         goal = GameObject.FindWithTag("Player").GetComponent<Transform>();
         agent.destination = goal.position;
     }
+    
 
     void Update()
     {
         agent.destination = goal.position;
+        timeCounter += Time.deltaTime;
+        if (timeCounter > 5)
+        {
+            timeCounter = 0;
+            agent.speed = walkingSpeed[Random.Range(0, walkingSpeed.Length)];
+        }
     }
 
     public void setGoal(Transform newGoal)

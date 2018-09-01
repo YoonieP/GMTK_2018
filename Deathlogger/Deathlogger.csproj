@@ -307,6 +307,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\DeathCamScript.cs" />
+    <Compile Include="Assets\Scripts\EnemyAnimationDelay.cs" />
     <Compile Include="Assets\Scripts\EnemyMoveTo.cs" />
     <Compile Include="Assets\Scripts\HelmentMaterialSwap.cs" />
     <Compile Include="Assets\Scripts\PlayerCollisionScript.cs" />

@@ -609,6 +609,7 @@ GameObject:
   - component: {fileID: 114272518321273468}
   - component: {fileID: 195509343721150224}
   - component: {fileID: 82427466246549622}
+  - component: {fileID: 114400255618189858}
   m_Layer: 0
   m_Name: SpiderEnemyPrefab
   m_TagString: enemy
@@ -2324,7 +2325,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 74799e24859f0f0488fe40b45ebd7939, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -2449,6 +2450,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12d1b086f1decdd4d82e8d3a82d71a34, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114400255618189858
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1573594981586688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de16f04b5d74aaf4f88983bf11ac7422, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!137 &137811885826207644
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
@@ -2550,7 +2562,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 4.8
-  m_Speed: 3.5
+  m_Speed: 2.8
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120

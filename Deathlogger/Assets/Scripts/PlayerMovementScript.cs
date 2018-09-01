@@ -5,7 +5,8 @@ using UnityEngine;
 public class PlayerMovementScript : MonoBehaviour {
     public GameObject bulletPrefab;
     public Transform bulletSpawn;
-    public float speed = 3.0f;
+    public float frontSpeed = 3.2f;
+    public float backSpeed = 2.7f;
     public float bulletSpeed = 3.5f;
     private float shootCooldownTimer = 0;
     public float shootCooldown = .3f;
@@ -19,7 +20,8 @@ public class PlayerMovementScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         var x = Input.GetAxis("Horizontal") * Time.deltaTime * 150.0f;
-        var z = Input.GetAxis("Vertical") * Time.deltaTime * speed;
+        var z = Input.GetAxis("Vertical") * Time.deltaTime;
+        z = z > 0 ? z * frontSpeed : z * backSpeed;
 
         transform.Rotate(0, x, 0);
         transform.Translate(0, 0, z);
