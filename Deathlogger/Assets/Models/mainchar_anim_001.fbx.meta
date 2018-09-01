@@ -32,6 +32,8 @@ ModelImporter:
     100052: rig
     100054: Skin_ZSphere_1
     100056: slingshot:Mesh
+    100058: character_export_001:polySurface1
+    100060: character_export_001:polySurface2
     400000: character_export_001:Mesh
     400002: ikHandle3
     400004: ikHandle4
@@ -61,13 +63,24 @@ ModelImporter:
     400052: rig
     400054: Skin_ZSphere_1
     400056: slingshot:Mesh
+    400058: character_export_001:polySurface1
+    400060: character_export_001:polySurface2
     2100000: Skin_ZSphere_1_blinn
     2100002: character_export_001_None1
+    2100004: character_export_001_lambert1
     2300000: slingshot:Mesh
+    2300002: character_export_001:polySurface1
+    2300004: character_export_001:polySurface2
+    2300006: Skin_ZSphere_1
     3300000: slingshot:Mesh
+    3300002: character_export_001:polySurface1
+    3300004: character_export_001:polySurface2
+    3300006: Skin_ZSphere_1
     4300000: Skin_ZSphere_1
     4300002: character_export_001:Mesh
     4300004: slingshot:Mesh
+    4300006: character_export_001:polySurface1
+    4300008: character_export_001:polySurface2
     7400000: Take 001
     9500000: //RootNode
     13700000: character_export_001:Mesh
