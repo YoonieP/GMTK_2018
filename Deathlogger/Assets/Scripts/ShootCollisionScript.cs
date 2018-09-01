@@ -11,9 +11,12 @@ public class ShootCollisionScript : MonoBehaviour {
     }
     void OnTriggerEnter(Collider collision)
     {
-        if(collision.gameObject.tag == "enemy")
+        if (collision.gameObject.tag == "enemy")
         {
-            Destroy(collision.gameObject);
+            collision.gameObject.GetComponent<AudioSource>().Play();
+            collision.gameObject.GetComponent<CapsuleCollider>().enabled = false;
+            collision.gameObject.GetComponent<EnemyMoveTo>().setGoal(collision.gameObject.transform);            
+            Destroy(collision.gameObject, 3f);
             Object.FindObjectOfType<UIScript>().increasePoints(1);
             Destroy(gameObject);
         }
