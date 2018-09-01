@@ -130,3 +130,5 @@ Deathlogger/Temp/UnityTempFile-ff5daf52b2aba4949a4ed6a58625f08c
 *.log
 Deathlogger/Library/shadercompiler-UnityShaderCompiler.exe0.log
 Deathlogger/Library/metadata/ca/ca1919d81c45f554fbf11db7b41dbf21.info
+*.info
+Deathlogger/Library/metadata/b2/b27f944f99dce154b9c6f48a8df0602c.info
