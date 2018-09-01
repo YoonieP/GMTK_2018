@@ -61,6 +61,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\ColorScript.cs" />
     <Compile Include="Assets\Scripts\DeathCamScript.cs" />
     <Compile Include="Assets\Scripts\EnemyAnimationDelay.cs" />
     <Compile Include="Assets\Scripts\EnemyMoveTo.cs" />
@@ -80,7 +81,6 @@
     <Compile Include="Assets\VolumetricLines\Scripts\VolumetricLineVertexData.cs" />
     <Compile Include="Assets\VolumetricLines\Scripts\VolumetricMultiLineBehavior.cs" />
     <None Include="Assets\VolumetricLines\Shaders\_StripShader.cginc" />
-    <None Include="Assets\Aura\License\license.txt" />
     <None Include="Assets\VolumetricLines\Shaders\Additive.shader" />
     <None Include="Assets\VolumetricLines\Shaders\AlphaBlended.shader" />
     <None Include="Assets\VolumetricLines\Shaders\Strip-Additive.shader" />
@@ -89,16 +89,16 @@
     <None Include="Assets\VolumetricLines\Shaders\Fast-Additive.shader" />
     <None Include="Assets\VolumetricLines\Shaders\_SimpleShader.cginc" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>C:/Users/Nam/Documents/GitHub/GMTK_2018_2/GMTK_2018/Deathlogger/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/Nam/Documents/GitHub/GMTK_2018/GMTK_2018/Deathlogger/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/Nam/Documents/GitHub/GMTK_2018_2/GMTK_2018/Deathlogger/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/Nam/Documents/GitHub/GMTK_2018/GMTK_2018/Deathlogger/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/Nam/Documents/GitHub/GMTK_2018_2/GMTK_2018/Deathlogger/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/Nam/Documents/GitHub/GMTK_2018/GMTK_2018/Deathlogger/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/Nam/Documents/GitHub/GMTK_2018_2/GMTK_2018/Deathlogger/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/Nam/Documents/GitHub/GMTK_2018/GMTK_2018/Deathlogger/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>D:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
