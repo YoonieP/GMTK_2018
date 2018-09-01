@@ -32,6 +32,7 @@ public class SpawnerScript : MonoBehaviour {
                     en2.GetComponent<EnemyMoveTo>().setSpawner(this);
                     enemyArray[i] = en2;
                 }
+                currentActiveEnemys++;
             }
         }
     }
