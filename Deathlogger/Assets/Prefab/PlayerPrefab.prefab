@@ -1518,17 +1518,38 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerDeath:
-  - {fileID: 8300000, guid: 74799e24859f0f0488fe40b45ebd7939, type: 3}
+  - {fileID: 8300000, guid: a812ed5cdfd9e3e4d826f44e62d56a98, type: 3}
+  - {fileID: 8300000, guid: c0e83ebadf105e1478b7e7a41e2613e7, type: 3}
+  - {fileID: 8300000, guid: c3885de4b09144b4eb1973f75398ad2a, type: 3}
+  - {fileID: 8300000, guid: c3bdf4d6ca1ac1f4587ad1bcc402f1f3, type: 3}
   enemyHit:
-  - {fileID: 8300000, guid: 74799e24859f0f0488fe40b45ebd7939, type: 3}
+  - {fileID: 8300000, guid: 92a643772a0fed64a936e0525684593b, type: 3}
+  - {fileID: 8300000, guid: 93608c9247a6d5942bbc9b0529c707a5, type: 3}
+  - {fileID: 8300000, guid: 05c4242352d25a9458b8c134503f264b, type: 3}
+  - {fileID: 8300000, guid: 124463ba41f9a014d887af6f046c029c, type: 3}
+  - {fileID: 8300000, guid: fc98e047bf148184281b20852fd5e3c2, type: 3}
+  - {fileID: 8300000, guid: d037bdd5582408e48be42b124dafa285, type: 3}
+  - {fileID: 8300000, guid: 372d49e4e4bb0c14f90b6d7b090b2991, type: 3}
+  - {fileID: 8300000, guid: 2870b77f1661c6b42af5c40f0b19d051, type: 3}
   enemyMiss:
-  - {fileID: 8300000, guid: 74799e24859f0f0488fe40b45ebd7939, type: 3}
+  - {fileID: 8300000, guid: ec5b93559be047e43894766057ff1c22, type: 3}
+  - {fileID: 8300000, guid: bf7748aa49f4ab744a110cfe66cefa49, type: 3}
+  - {fileID: 8300000, guid: 6c600d955a8a40d4f85ecb41bf41b6de, type: 3}
   enemyClose:
-  - {fileID: 8300000, guid: 74799e24859f0f0488fe40b45ebd7939, type: 3}
+  - {fileID: 8300000, guid: c1e4ee24153104e41887aceb0cbdc0ee, type: 3}
+  - {fileID: 8300000, guid: 860216fcc702b7e498d78a7cf12f33d1, type: 3}
+  - {fileID: 8300000, guid: 7090546d91d44944bb983ffaf6347cd8, type: 3}
+  - {fileID: 8300000, guid: 02c82178aa8ad624a84635a0efd1e677, type: 3}
+  - {fileID: 8300000, guid: 68dbe4fd24b4c834f92d415bd2769b83, type: 3}
   noEnemyAround:
-  - {fileID: 8300000, guid: 74799e24859f0f0488fe40b45ebd7939, type: 3}
+  - {fileID: 8300000, guid: b37a055e294f6554c8ae426ee5f2774f, type: 3}
+  - {fileID: 8300000, guid: ceb20f442a35d6a4a821c73bf923ac50, type: 3}
+  - {fileID: 8300000, guid: 79d2a92ad4b96e146b5ce8bc6e8c46d3, type: 3}
+  - {fileID: 8300000, guid: 37369018416313c4f8ff8372bb97f5fa, type: 3}
   welcomeSpeech:
-  - {fileID: 8300000, guid: 74799e24859f0f0488fe40b45ebd7939, type: 3}
+  - {fileID: 8300000, guid: 0322dbd3c6a924e43aec7076fbb0d900, type: 3}
+  - {fileID: 8300000, guid: d8784228e8cf11b45bc5c88b0fef8ce4, type: 3}
+  - {fileID: 8300000, guid: 41898b2088e64fc44ba0328ca303d92f, type: 3}
 --- !u!114 &114234451701905698
 MonoBehaviour:
   m_ObjectHideFlags: 1
