@@ -12,10 +12,10 @@ public class LevelLoad : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if(script.points > 10)
+		if(script.points > 10 && SceneManager.GetActiveScene().buildIndex == 2)
         {
-            new WaitForSeconds(2);
-            SceneManager.LoadScene("GameLevel");
+            new WaitForSeconds(3);
+            SceneManager.LoadScene(1);
         }
 	}
 }
