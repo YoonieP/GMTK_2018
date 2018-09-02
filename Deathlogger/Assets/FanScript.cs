@@ -12,8 +12,14 @@ public class FanScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        
-        x += Time.deltaTime * 1.5f;
+        if (x < 5)
+        {
+            x += Time.deltaTime * 1.5f;
+        }
+        else
+        {
+            x -= Time.deltaTime * 1.5f;
+        }
         fan.transform.Rotate(new Vector3(0, x, 0));
 
     }
