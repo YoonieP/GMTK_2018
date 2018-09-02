@@ -10,12 +10,18 @@ public class EnemyMoveTo : MonoBehaviour
     private float timeCounter = 5;
     private float[] walkingSpeed = {2.3f, 2.5f, 2.8f,3f, 3.2f };
     private SpawnerScript spawner;
+    public AudioClip spiderWalk2;
     // Use this for initialization
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
         goal = GameObject.FindWithTag("Player").GetComponent<Transform>();
         agent.destination = goal.position;
+        if (Random.Range(0, 10) > 5)
+        {
+            GetComponent<AudioSource>().clip = spiderWalk2;
+            GetComponent<AudioSource>().Play();
+        }       
     }
     
 

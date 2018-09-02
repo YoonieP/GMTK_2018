@@ -2224,7 +2224,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: 5
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0
@@ -2341,6 +2341,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12d1b086f1decdd4d82e8d3a82d71a34, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spiderWalk2: {fileID: 8300000, guid: 5c035c08d5fb8d248ad5a87cd2f450e1, type: 3}
 --- !u!114 &114863421880270638
 MonoBehaviour:
   m_ObjectHideFlags: 1
