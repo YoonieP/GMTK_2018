@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+
 public class LoadSceneScript : MonoBehaviour {
 
     public void PlayGame()
@@ -12,4 +14,5 @@ public class LoadSceneScript : MonoBehaviour {
     {
         Application.Quit();
     } 
+
 }
