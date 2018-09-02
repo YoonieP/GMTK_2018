@@ -68,6 +68,13 @@ ModelImporter:
     2100000: Skin_ZSphere_1_blinn
     2100002: character_export_001_None1
     2100004: character_export_001_lambert1
+    2100006: body
+    2100008: gun
+    2100010: bags_n_stuff
+    2100012: protectors
+    2100014: armor
+    2100016: scarf
+    2100018: neck
     4300000: Skin_ZSphere_1
     4300002: slingshot:Mesh
     4300004: character_export_001:polySurface1

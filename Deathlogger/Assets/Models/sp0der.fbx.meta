@@ -163,6 +163,10 @@ ModelImporter:
     400156: sp0derskeleton
     2000000: Camera
     2100000: Material
+    2100002: legs
+    2100004: bodylights
+    2100006: backlight
+    2100008: head
     4300000: Cube
     4300002: sp0der
     7400000: Armature|ArmatureAction
