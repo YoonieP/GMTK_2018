@@ -29,6 +29,7 @@ public class PlayerMovementScript : MonoBehaviour {
         {
             shootCooldownTimer = 0;
             shootBullet();
+            GetComponent<Animator>().SetTrigger("shoot");
         }
         else if (shootCooldownTimer < shootCooldown)
         {
