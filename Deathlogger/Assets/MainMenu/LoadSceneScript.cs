@@ -6,7 +6,7 @@ public class LoadSceneScript : MonoBehaviour {
 
     public void PlayGame()
     {
-        SceneManager.LoadScene("MikeScene");
+        SceneManager.LoadScene("TutorialLevel");
     }
     public void QuitGame()
     {

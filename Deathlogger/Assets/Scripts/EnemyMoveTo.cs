@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.SceneManagement;
 
 public class EnemyMoveTo : MonoBehaviour
 {
@@ -46,7 +47,14 @@ public class EnemyMoveTo : MonoBehaviour
         if (timeCounter > 5)
         {
             timeCounter = 0;
-            agent.speed = walkingSpeed[Random.Range(0, walkingSpeed.Length)];
+            if(SceneManager.GetActiveScene().buildIndex == 2)
+            {
+                agent.speed = 1f;
+            }
+            else
+            {
+                agent.speed = walkingSpeed[Random.Range(0, walkingSpeed.Length)];
+            }
         }
     }
 

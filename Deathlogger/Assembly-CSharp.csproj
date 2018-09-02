@@ -132,6 +132,7 @@
     <Compile Include="Assets\Scripts\EnemyAnimationDelay.cs" />
     <Compile Include="Assets\Scripts\EnemyMoveTo.cs" />
     <Compile Include="Assets\Scripts\HelmentMaterialSwap.cs" />
+    <Compile Include="Assets\Scripts\LevelLoad.cs" />
     <Compile Include="Assets\Scripts\PlayerCollisionScript.cs" />
     <Compile Include="Assets\Scripts\PlayerMovementScript.cs" />
     <Compile Include="Assets\Scripts\PlayerReactionsScript.cs" />
