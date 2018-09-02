@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 4}
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 613}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -66,10 +66,10 @@ MonoBehaviour:
     y: 30
     width: 1536
     height: 771
-  m_MinSize: {x: 713, y: 542}
-  m_MaxSize: {x: 18008, y: 12042}
+  m_MinSize: {x: 713, y: 563}
+  m_MaxSize: {x: 18008, y: 12063}
   vertical: 1
-  controlID: 28
+  controlID: 144
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -91,7 +91,7 @@ MonoBehaviour:
     y: 0
     width: 1536
     height: 821
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 613}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &5
 MonoBehaviour:
@@ -155,10 +155,10 @@ MonoBehaviour:
     y: 0
     width: 1536
     height: 771
-  m_MinSize: {x: 713, y: 542}
-  m_MaxSize: {x: 18008, y: 12042}
+  m_MinSize: {x: 713, y: 563}
+  m_MaxSize: {x: 18008, y: 12063}
   vertical: 0
-  controlID: 29
+  controlID: 145
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -206,10 +206,10 @@ MonoBehaviour:
     y: 0
     width: 774
     height: 771
-  m_MinSize: {x: 204, y: 542}
-  m_MaxSize: {x: 4004, y: 12042}
+  m_MinSize: {x: 204, y: 563}
+  m_MaxSize: {x: 4004, y: 12063}
   vertical: 1
-  controlID: 108
+  controlID: 146
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -255,8 +255,8 @@ MonoBehaviour:
     y: 633
     width: 774
     height: 138
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 104, y: 121}
+  m_MaxSize: {x: 4004, y: 4021}
   m_ActualView: {fileID: 22}
   m_Panes:
   - {fileID: 22}
@@ -285,7 +285,7 @@ MonoBehaviour:
   m_MinSize: {x: 277, y: 292}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 190
+  controlID: 181
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -499,9 +499,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 6c370000
-    m_LastClickedID: 14188
-    m_ExpandedIDs: 00000000a2340000f4340000aa3600004237000096370000f2380000c044000000ca9a3b
+    m_SelectedIDs: d22f0000
+    m_LastClickedID: 12242
+    m_ExpandedIDs: 00000000d42c0000222d0000342f0000aa2f0000fc2f00004c310000523d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -529,7 +529,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000a2340000aa36000096370000f2380000c0440000
+    m_ExpandedIDs: 00000000d42c0000222d0000342f0000aa2f0000fc2f00004c310000523d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -556,7 +556,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000c6330000342f00007c9fffff1a09000052570000e0cf0100c00b0000703000001a2a00000e460000fa0a0000b0710000800b00009c0d00008636000000000000782d0000543f0000b60c0000181000001c1000000419f9ff
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -647,7 +647,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.14506374, y: -0.83477616, z: 0.26207504, w: -0.462027}
     speed: 2
-    m_Value: {x: -0.14506033, y: -0.83475655, z: 0.26206887, w: -0.46201617}
+    m_Value: {x: 0.14506374, y: 0.83477616, z: -0.26207504, w: 0.462027}
   m_Size:
     m_Target: 0.72393644
     speed: 2
@@ -988,7 +988,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 2a86f6ff8e89f6ffb6c9f7ff52cdf7ffe8def7ff5430f8ff9a40f8ff6a6cf8ff781cfaff3ea7faff4caffaffecb3faffd2b8faffdcf2fcffe8f2fcffeef2fcff04f3fcff0cf3fcff18f3fcff1cf3fcff2ef3fcff3cf3fcff72f3fcff74f3fcff0006feff8acfffff9ccfffffb2cfffffbacfffffd0cffffff6cfffff32d0ffff3ad0ffff28eeffff2aeefffffaf2ffff90faffff00000000d0710000c8800000a8860000
+    m_ExpandedIDs: 68faffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1007,7 +1007,7 @@ MonoBehaviour:
       m_ClientGUIView: {fileID: 13}
     m_SearchString: 
   m_ExpandedScenes:
-  - TutorialLevel
+  - GameLevel
   m_CurrenRootInstanceID: 0
   m_LockTracker:
     m_IsLocked: 0
