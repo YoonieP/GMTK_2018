@@ -64,6 +64,8 @@ ModelImporter:
     100116: wallup_4_2
     100118: wallup_5
     100120: wallup_5_2
+    100122: wallup_4_3
+    100124: wallup_6
     400000: Cube
     400002: Cube_0
     400004: Cube_0_2
@@ -125,6 +127,8 @@ ModelImporter:
     400116: wallup_4_2
     400118: wallup_5
     400120: wallup_5_2
+    400122: wallup_4_3
+    400124: wallup_6
     2100000: No Name
     2300000: Cube
     2300002: Cube_0
@@ -180,6 +184,8 @@ ModelImporter:
     2300102: wallup_5
     2300104: wallup_5_2
     2300106: //RootNode
+    2300108: wallup_4_3
+    2300110: wallup_6
     3300000: Cube
     3300002: Cube_0
     3300004: Cube_0_2
@@ -234,6 +240,8 @@ ModelImporter:
     3300102: wallup_5
     3300104: wallup_5_2
     3300106: //RootNode
+    3300108: wallup_4_3
+    3300110: wallup_6
     4300000: wallup_3
     4300002: wallup_2
     4300004: wallup_1
@@ -288,6 +296,8 @@ ModelImporter:
     4300102: Cube_1_4
     4300104: Cube
     4300106: wallup_8
+    4300108: wallup_6
+    4300110: wallup_4_3
   externalObjects: {}
   materials:
     importMaterials: 1

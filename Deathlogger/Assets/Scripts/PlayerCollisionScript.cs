@@ -8,7 +8,6 @@ public class PlayerCollisionScript : MonoBehaviour {
     {
         if (collision.gameObject.tag == "enemy")
         {
-            Debug.Log("die");
             Object.FindObjectOfType<DeathCamScript>().camDrop();
         }
     }
