@@ -749,6 +749,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8ba7d2ccb4365bb4683adebed539667b, type: 3}
+      propertyPath: m_TagString
+      value: terrain
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ba7d2ccb4365bb4683adebed539667b, type: 3}
   m_IsPrefabAsset: 0
@@ -1736,6 +1740,36 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 114089012594390068, guid: b27f944f99dce154b9c6f48a8df0602c,
+        type: 2}
+      propertyPath: enemyHit.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 114089012594390068, guid: b27f944f99dce154b9c6f48a8df0602c,
+        type: 2}
+      propertyPath: enemyMiss.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114089012594390068, guid: b27f944f99dce154b9c6f48a8df0602c,
+        type: 2}
+      propertyPath: enemyClose.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 114089012594390068, guid: b27f944f99dce154b9c6f48a8df0602c,
+        type: 2}
+      propertyPath: playerDeath.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 114089012594390068, guid: b27f944f99dce154b9c6f48a8df0602c,
+        type: 2}
+      propertyPath: noEnemyAround.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114089012594390068, guid: b27f944f99dce154b9c6f48a8df0602c,
+        type: 2}
+      propertyPath: welcomeSpeech.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4907400220391780, guid: b27f944f99dce154b9c6f48a8df0602c, type: 2}
       propertyPath: m_LocalPosition.x
       value: -20.59
@@ -1777,6 +1811,131 @@ Prefab:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 051b8275ae7448d45bf4b592bd361a94, type: 2}
+    - target: {fileID: 114089012594390068, guid: b27f944f99dce154b9c6f48a8df0602c,
+        type: 2}
+      propertyPath: playerDeath.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: c0e83ebadf105e1478b7e7a41e2613e7, type: 3}
+    - target: {fileID: 114089012594390068, guid: b27f944f99dce154b9c6f48a8df0602c,
+        type: 2}
+      propertyPath: playerDeath.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: c3885de4b09144b4eb1973f75398ad2a, type: 3}
+    - target: {fileID: 114089012594390068, guid: b27f944f99dce154b9c6f48a8df0602c,
+        type: 2}
+      propertyPath: playerDeath.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: c3bdf4d6ca1ac1f4587ad1bcc402f1f3, type: 3}
+    - target: {fileID: 114089012594390068, guid: b27f944f99dce154b9c6f48a8df0602c,
+        type: 2}
+      propertyPath: playerDeath.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: a812ed5cdfd9e3e4d826f44e62d56a98, type: 3}
+    - target: {fileID: 114089012594390068, guid: b27f944f99dce154b9c6f48a8df0602c,
+        type: 2}
+      propertyPath: enemyHit.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 92a643772a0fed64a936e0525684593b, type: 3}
+    - target: {fileID: 114089012594390068, guid: b27f944f99dce154b9c6f48a8df0602c,
+        type: 2}
+      propertyPath: enemyHit.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 05c4242352d25a9458b8c134503f264b, type: 3}
+    - target: {fileID: 114089012594390068, guid: b27f944f99dce154b9c6f48a8df0602c,
+        type: 2}
+      propertyPath: enemyHit.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 124463ba41f9a014d887af6f046c029c, type: 3}
+    - target: {fileID: 114089012594390068, guid: b27f944f99dce154b9c6f48a8df0602c,
+        type: 2}
+      propertyPath: enemyHit.Array.data[4]
+      value: 
+      objectReference: {fileID: 8300000, guid: fc98e047bf148184281b20852fd5e3c2, type: 3}
+    - target: {fileID: 114089012594390068, guid: b27f944f99dce154b9c6f48a8df0602c,
+        type: 2}
+      propertyPath: enemyHit.Array.data[5]
+      value: 
+      objectReference: {fileID: 8300000, guid: d037bdd5582408e48be42b124dafa285, type: 3}
+    - target: {fileID: 114089012594390068, guid: b27f944f99dce154b9c6f48a8df0602c,
+        type: 2}
+      propertyPath: enemyHit.Array.data[6]
+      value: 
+      objectReference: {fileID: 8300000, guid: 372d49e4e4bb0c14f90b6d7b090b2991, type: 3}
+    - target: {fileID: 114089012594390068, guid: b27f944f99dce154b9c6f48a8df0602c,
+        type: 2}
+      propertyPath: enemyHit.Array.data[7]
+      value: 
+      objectReference: {fileID: 8300000, guid: 2870b77f1661c6b42af5c40f0b19d051, type: 3}
+    - target: {fileID: 114089012594390068, guid: b27f944f99dce154b9c6f48a8df0602c,
+        type: 2}
+      propertyPath: enemyHit.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 93608c9247a6d5942bbc9b0529c707a5, type: 3}
+    - target: {fileID: 114089012594390068, guid: b27f944f99dce154b9c6f48a8df0602c,
+        type: 2}
+      propertyPath: enemyMiss.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: bf7748aa49f4ab744a110cfe66cefa49, type: 3}
+    - target: {fileID: 114089012594390068, guid: b27f944f99dce154b9c6f48a8df0602c,
+        type: 2}
+      propertyPath: enemyMiss.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: ec5b93559be047e43894766057ff1c22, type: 3}
+    - target: {fileID: 114089012594390068, guid: b27f944f99dce154b9c6f48a8df0602c,
+        type: 2}
+      propertyPath: enemyMiss.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 6c600d955a8a40d4f85ecb41bf41b6de, type: 3}
+    - target: {fileID: 114089012594390068, guid: b27f944f99dce154b9c6f48a8df0602c,
+        type: 2}
+      propertyPath: enemyClose.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 02c82178aa8ad624a84635a0efd1e677, type: 3}
+    - target: {fileID: 114089012594390068, guid: b27f944f99dce154b9c6f48a8df0602c,
+        type: 2}
+      propertyPath: enemyClose.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 68dbe4fd24b4c834f92d415bd2769b83, type: 3}
+    - target: {fileID: 114089012594390068, guid: b27f944f99dce154b9c6f48a8df0602c,
+        type: 2}
+      propertyPath: enemyClose.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 860216fcc702b7e498d78a7cf12f33d1, type: 3}
+    - target: {fileID: 114089012594390068, guid: b27f944f99dce154b9c6f48a8df0602c,
+        type: 2}
+      propertyPath: enemyClose.Array.data[4]
+      value: 
+      objectReference: {fileID: 8300000, guid: 74799e24859f0f0488fe40b45ebd7939, type: 3}
+    - target: {fileID: 114089012594390068, guid: b27f944f99dce154b9c6f48a8df0602c,
+        type: 2}
+      propertyPath: enemyClose.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: c1e4ee24153104e41887aceb0cbdc0ee, type: 3}
+    - target: {fileID: 114089012594390068, guid: b27f944f99dce154b9c6f48a8df0602c,
+        type: 2}
+      propertyPath: noEnemyAround.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: ceb20f442a35d6a4a821c73bf923ac50, type: 3}
+    - target: {fileID: 114089012594390068, guid: b27f944f99dce154b9c6f48a8df0602c,
+        type: 2}
+      propertyPath: noEnemyAround.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 37369018416313c4f8ff8372bb97f5fa, type: 3}
+    - target: {fileID: 114089012594390068, guid: b27f944f99dce154b9c6f48a8df0602c,
+        type: 2}
+      propertyPath: noEnemyAround.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: b37a055e294f6554c8ae426ee5f2774f, type: 3}
+    - target: {fileID: 114089012594390068, guid: b27f944f99dce154b9c6f48a8df0602c,
+        type: 2}
+      propertyPath: welcomeSpeech.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 41898b2088e64fc44ba0328ca303d92f, type: 3}
+    - target: {fileID: 114089012594390068, guid: b27f944f99dce154b9c6f48a8df0602c,
+        type: 2}
+      propertyPath: welcomeSpeech.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 0322dbd3c6a924e43aec7076fbb0d900, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b27f944f99dce154b9c6f48a8df0602c, type: 2}
   m_IsPrefabAsset: 0
