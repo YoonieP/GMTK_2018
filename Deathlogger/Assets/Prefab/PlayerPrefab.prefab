@@ -534,7 +534,7 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &1969484154687972
 GameObject:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 6
@@ -690,7 +690,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4907400220391780}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4255216058107990
 Transform:
@@ -701,8 +701,7 @@ Transform:
   m_LocalRotation: {x: -0.5605617, y: 0.8281127, z: 5.070728e-17, w: -3.4324505e-17}
   m_LocalPosition: {x: -0.002985136, y: 4.4167197e-18, z: 0.00019738307}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 4284900746970406}
+  m_Children: []
   m_Father: {fileID: 4274943605438818}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -754,12 +753,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1969484154687972}
-  m_LocalRotation: {x: 0.3841028, y: -0.9064529, z: -0.11312368, w: -0.13420607}
-  m_LocalPosition: {x: 0.00074004673, y: 0.005100009, z: -0.01797002}
-  m_LocalScale: {x: 0.052440424, y: 0.052440412, z: 0.052440878}
+  m_LocalRotation: {x: -0.006926924, y: -0.07228377, z: 0.0005021095, w: 0.99736}
+  m_LocalPosition: {x: 0.0007299774, y: 0.024459302, z: 0.0196}
+  m_LocalScale: {x: 0.052440457, y: 0.05244042, z: 0.052440904}
   m_Children: []
-  m_Father: {fileID: 4255216058107990}
-  m_RootOrder: 0
+  m_Father: {fileID: 4907400220391780}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4287371185234388
 Transform:
@@ -1056,12 +1055,13 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1218183162980788}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -9.76, y: 5.08, z: 6.13}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 25, y: 25, z: 25}
   m_Children:
   - {fileID: 4199234448683332}
   - {fileID: 4213747482125830}
   - {fileID: 4658357347098392}
+  - {fileID: 4284900746970406}
   - {fileID: 4243875389963340}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -1607,7 +1607,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c529e2648fb46cb46a77cd4d97a43a91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 1922189491715408, guid: ca1919d81c45f554fbf11db7b41dbf21,
+  bulletPrefab: {fileID: 1336266607330170, guid: 781686b6b096eeb4dbcad1c2e6beb0f0,
     type: 2}
   bulletSpawn: {fileID: 4284900746970406}
   frontSpeed: 3.8
