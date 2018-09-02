@@ -396,10 +396,10 @@ MonoBehaviour:
       temporalReprojectionFactor: 0.9
       resolution: {x: 160, y: 88, z: 64}
       farClipPlaneDistance: 25
-      density: 0.5
+      density: 3
       anisotropy: 0.6
-      color: {r: 0.25, g: 0.16615304, b: 0.103470325, a: 1}
-      colorStrength: 0.25
+      color: {r: 0.25, g: 0.24759534, b: 0.20172217, a: 1}
+      colorStrength: 1.52
     _computeMaximumDepthComputeShader: {fileID: 7200000, guid: a5d52c8a306e8b746ab60b306575aa3e,
       type: 3}
     _processOcclusionMapShader: {fileID: 4800000, guid: b9b5b0990ea6cfa4d96c89a9c1cec3e9,
@@ -1876,6 +1876,11 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 108887123691820494, guid: a89cfe1fc74309a4098f9163a4ba6d8d,
+        type: 2}
+      propertyPath: m_Intensity
+      value: 4.87
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a89cfe1fc74309a4098f9163a4ba6d8d, type: 2}
   m_IsPrefabAsset: 0
@@ -1890,6 +1895,7 @@ GameObject:
   - component: {fileID: 960073913}
   - component: {fileID: 960073915}
   - component: {fileID: 960073914}
+  - component: {fileID: 960073916}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -1927,7 +1933,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: 273eed022833b30468632d495dd279a2, type: 3}
+  - {fileID: 2100000, guid: 2f290c5f979add44ba5bd67694022cb6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1954,6 +1960,20 @@ MeshFilter:
     type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 960073912}
+  m_Mesh: {fileID: 4300000, guid: 273eed022833b30468632d495dd279a2, type: 3}
+--- !u!64 &960073916
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 960073912}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: 273eed022833b30468632d495dd279a2, type: 3}
 --- !u!1 &962723718
 GameObject:
@@ -2504,12 +2524,12 @@ Prefab:
     - target: {fileID: 108887123691820494, guid: a89cfe1fc74309a4098f9163a4ba6d8d,
         type: 2}
       propertyPath: m_Color.r
-      value: 0.7924528
+      value: 0.8962264
       objectReference: {fileID: 0}
     - target: {fileID: 108887123691820494, guid: a89cfe1fc74309a4098f9163a4ba6d8d,
         type: 2}
       propertyPath: m_Color.g
-      value: 0.74817514
+      value: 0.8651544
       objectReference: {fileID: 0}
     - target: {fileID: 108887123691820494, guid: a89cfe1fc74309a4098f9163a4ba6d8d,
         type: 2}
@@ -2519,7 +2539,7 @@ Prefab:
     - target: {fileID: 108887123691820494, guid: a89cfe1fc74309a4098f9163a4ba6d8d,
         type: 2}
       propertyPath: m_Color.b
-      value: 0.50462794
+      value: 0.68907976
       objectReference: {fileID: 0}
     - target: {fileID: 114146193824098562, guid: a89cfe1fc74309a4098f9163a4ba6d8d,
         type: 2}
@@ -2529,7 +2549,7 @@ Prefab:
     - target: {fileID: 108887123691820494, guid: a89cfe1fc74309a4098f9163a4ba6d8d,
         type: 2}
       propertyPath: m_Intensity
-      value: 2.67
+      value: 4.7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a89cfe1fc74309a4098f9163a4ba6d8d, type: 2}
@@ -2598,7 +2618,7 @@ Prefab:
     - target: {fileID: 108887123691820494, guid: a89cfe1fc74309a4098f9163a4ba6d8d,
         type: 2}
       propertyPath: m_Intensity
-      value: 3.09
+      value: 4.57
       objectReference: {fileID: 0}
     - target: {fileID: 108887123691820494, guid: a89cfe1fc74309a4098f9163a4ba6d8d,
         type: 2}
@@ -3074,12 +3094,12 @@ Prefab:
     - target: {fileID: 108887123691820494, guid: a89cfe1fc74309a4098f9163a4ba6d8d,
         type: 2}
       propertyPath: m_Color.r
-      value: 0.7364123
+      value: 0.8666667
       objectReference: {fileID: 0}
     - target: {fileID: 108887123691820494, guid: a89cfe1fc74309a4098f9163a4ba6d8d,
         type: 2}
       propertyPath: m_Color.g
-      value: 0.59362763
+      value: 0.8346775
       objectReference: {fileID: 0}
     - target: {fileID: 114146193824098562, guid: a89cfe1fc74309a4098f9163a4ba6d8d,
         type: 2}
@@ -3089,7 +3109,7 @@ Prefab:
     - target: {fileID: 108887123691820494, guid: a89cfe1fc74309a4098f9163a4ba6d8d,
         type: 2}
       propertyPath: m_Color.b
-      value: 0.8679245
+      value: 0.5921569
       objectReference: {fileID: 0}
     - target: {fileID: 108887123691820494, guid: a89cfe1fc74309a4098f9163a4ba6d8d,
         type: 2}
@@ -3099,7 +3119,12 @@ Prefab:
     - target: {fileID: 108887123691820494, guid: a89cfe1fc74309a4098f9163a4ba6d8d,
         type: 2}
       propertyPath: m_Range
-      value: 4.18
+      value: 5.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 108887123691820494, guid: a89cfe1fc74309a4098f9163a4ba6d8d,
+        type: 2}
+      propertyPath: m_Intensity
+      value: 4.79
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a89cfe1fc74309a4098f9163a4ba6d8d, type: 2}
@@ -3394,17 +3419,17 @@ Prefab:
     - target: {fileID: 108887123691820494, guid: a89cfe1fc74309a4098f9163a4ba6d8d,
         type: 2}
       propertyPath: m_Color.r
-      value: 0.8009968
+      value: 0.6886792
       objectReference: {fileID: 0}
     - target: {fileID: 108887123691820494, guid: a89cfe1fc74309a4098f9163a4ba6d8d,
         type: 2}
       propertyPath: m_Color.g
-      value: 0.5938057
+      value: 0.6477483
       objectReference: {fileID: 0}
     - target: {fileID: 108887123691820494, guid: a89cfe1fc74309a4098f9163a4ba6d8d,
         type: 2}
       propertyPath: m_Color.b
-      value: 0.9056604
+      value: 0.48402455
       objectReference: {fileID: 0}
     - target: {fileID: 108887123691820494, guid: a89cfe1fc74309a4098f9163a4ba6d8d,
         type: 2}
@@ -3419,7 +3444,7 @@ Prefab:
     - target: {fileID: 108887123691820494, guid: a89cfe1fc74309a4098f9163a4ba6d8d,
         type: 2}
       propertyPath: m_Intensity
-      value: 2.8
+      value: 3.78
       objectReference: {fileID: 0}
     - target: {fileID: 108887123691820494, guid: a89cfe1fc74309a4098f9163a4ba6d8d,
         type: 2}
