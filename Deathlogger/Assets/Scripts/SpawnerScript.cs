@@ -10,21 +10,22 @@ public class SpawnerScript : MonoBehaviour {
     public float timeTillActiveEnemysIncreases = 30;    //seconds
     private float timeCounter;
     private float spawnCouldownTimer = 6;
-    private float spawnCouldownMinimum = 4;
-   
+    private float spawnCouldownMinimum = 2;
+    private float timerBetweenSpawnCounter = 0;
 	// Update is called once per frame
 	void Update () {
         timeCounter += Time.deltaTime;
+        timerBetweenSpawnCounter += Time.deltaTime;
         spawnCouldownTimer += Time.deltaTime;
         if (timeCounter >= timeTillActiveEnemysIncreases)
         {
             timeCounter = 0;
             sameTimeActiveEnemys++;
         }
-        if (currentActiveEnemys != sameTimeActiveEnemys && spawnCouldownTimer >= spawnCouldownMinimum)
+        if (currentActiveEnemys != sameTimeActiveEnemys && spawnCouldownTimer >= spawnCouldownMinimum && timerBetweenSpawnCounter>=1)
         {            
-            for (int i = 0; i < (sameTimeActiveEnemys-currentActiveEnemys); i++)
-            {
+           // for (int i = 0; i < (sameTimeActiveEnemys-currentActiveEnemys); i++)
+           // {
                 if (Random.value > 0.5)
                 {
                     GameObject en1 = Instantiate(enemy1, transform);
@@ -36,7 +37,8 @@ public class SpawnerScript : MonoBehaviour {
                     en2.GetComponent<EnemyMoveTo>().setSpawner(this);
                 }
                 currentActiveEnemys++;
-            }
+                timerBetweenSpawnCounter = 0;
+            //}
         }
     }
 
