@@ -53,7 +53,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sameTimeActiveEnemys: 2
   currentActiveEnemys: 0
-  startingArraySize: 20
-  enemyArray: []
   enemy1: {fileID: 1573594981586688, guid: f85280fba9a2295499d819797368ed4b, type: 2}
-  enemy2: {fileID: 1280882474036970, guid: 82002695b86002b4cb919e963539c03b, type: 2}
+  enemy2: {fileID: 1918286985098542, guid: a6024e7a05650f348baef4a56a7e5285, type: 2}
+  timeTillActiveEnemysIncreases: 30
