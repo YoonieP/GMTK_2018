@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Aura/Examples/Spot Light/Spot Light Example.unity
+- path: Assets/Scenes/FinalLevel/TutorialLevel.unity
   isLoaded: 1
   isActive: 1
