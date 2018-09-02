@@ -112,6 +112,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d51e384078a6e54e847be9ff31c3e65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  willhelm: {fileID: 8300000, guid: 12aa014aec7b94345956bdfe22056bb0, type: 3}
+  robotDeathSound: {fileID: 8300000, guid: 74799e24859f0f0488fe40b45ebd7939, type: 3}
 --- !u!135 &135824189980661754
 SphereCollider:
   m_ObjectHideFlags: 1

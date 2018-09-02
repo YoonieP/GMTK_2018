@@ -22,9 +22,8 @@ public class PlayerReactionsScript : MonoBehaviour {
 
     private void Update()
     {
-        Debug.Log(enemyMissCounter);
         if (!playerIsDead)
-        {
+       { 
             timerNoEnemyAround += Time.deltaTime;
             if (timerNoEnemyAround > 30 && Random.Range(0, 10) > 8 && !audioSource.isPlaying)
             {
