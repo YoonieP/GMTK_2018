@@ -189,6 +189,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4293859140495368}
   - component: {fileID: 23215896565425138}
+  - component: {fileID: 114116477084697548}
   - component: {fileID: 102832143895129340}
   - component: {fileID: 114234451701905698}
   m_Layer: 0
@@ -1055,7 +1056,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1218183162980788}
   m_LocalRotation: {x: -0, y: 0.47163305, z: -0, w: 0.8817949}
-  m_LocalPosition: {x: -1.77, y: 6.78, z: -10.42}
+  m_LocalPosition: {x: -1.77, y: 4.86, z: -10.42}
   m_LocalScale: {x: 25, y: 25, z: 25}
   m_Children:
   - {fileID: 4199234448683332}
@@ -1481,10 +1482,10 @@ MonoBehaviour:
       temporalReprojectionFactor: 0.9
       resolution: {x: 160, y: 88, z: 64}
       farClipPlaneDistance: 25
-      density: 0.5
+      density: 3
       anisotropy: 0.6
-      color: {r: 0.25, g: 0.16615304, b: 0.103470325, a: 1}
-      colorStrength: 0.25
+      color: {r: 0.24606928, g: 0.25, b: 0.21846783, a: 1}
+      colorStrength: 2.1
     _computeMaximumDepthComputeShader: {fileID: 7200000, guid: a5d52c8a306e8b746ab60b306575aa3e,
       type: 3}
     _processOcclusionMapShader: {fileID: 4800000, guid: b9b5b0990ea6cfa4d96c89a9c1cec3e9,
@@ -1550,6 +1551,18 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 0322dbd3c6a924e43aec7076fbb0d900, type: 3}
   - {fileID: 8300000, guid: d8784228e8cf11b45bc5c88b0fef8ce4, type: 3}
   - {fileID: 8300000, guid: 41898b2088e64fc44ba0328ca303d92f, type: 3}
+--- !u!114 &114116477084697548
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1335878704065862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1df45bc6f7f1c2d4b8adb9a942e970b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  script: {fileID: 114234451701905698}
 --- !u!114 &114234451701905698
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1561,6 +1574,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e05c2ab897b7e8f4da1cca0cf3ca3e1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  points: 0
   text: {fileID: 102832143895129340}
 --- !u!114 &114288213301447186
 MonoBehaviour:
